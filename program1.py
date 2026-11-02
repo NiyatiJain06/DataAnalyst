@@ -1,7 +1,6 @@
-python_list = [1, 2, 3, 4, 5]
-print(python_list)
+import pandas as pd
 
-import numpy as np
-numpy_array = np.array(python_list)
-print(numpy_array)
-
+#df = pd.read_json("C:\Data Analyst\Pandas\sample_Data.json")
+#df = pd.read_excel("C:\Data Analyst\Pandas\SampleSuperstore.xlsx")
+df = pd.read_csv("C:\Data Analyst\Pandas\sample_data.csv")
+print(df)
